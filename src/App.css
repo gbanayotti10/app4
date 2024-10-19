@@ -13,6 +13,18 @@
   }
 }
 
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  height: 28px;
+  padding: 5px;
+  font: 12px sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +34,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+canvas {
+  max-width: 20%;
 }
 
 .App-link {
